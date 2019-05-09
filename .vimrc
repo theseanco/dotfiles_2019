@@ -92,7 +92,10 @@ Plug 'mattn/emmet-vim'
 " javascript
 "" Javascript Bundle
 Plug 'jelera/vim-javascript-syntax'
+Plug 'mxw/vim-jsx'
 
+" Vim surround
+Plug 'tpope/vim-surround'
 
 "*****************************************************************************
 "*****************************************************************************
