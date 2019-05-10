@@ -530,4 +530,4 @@ let g:user_emmet_settings = {
 
 "autolinter
 autocmd BufWritePost *.js AsyncRun -post=checktime ./node_modules/.bin/eslint --fix %
-
+let g:jsx_ext_required = 0
