@@ -94,6 +94,9 @@ Plug 'mattn/emmet-vim'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'mxw/vim-jsx'
 
+"" Styled-components
+Plug 'styled-components/vim-styled-components'
+
 " Vim surround
 Plug 'tpope/vim-surround'
 
@@ -156,7 +159,7 @@ let g:session_autosave = "no"
 let g:session_command_aliases = 1
 
 " don't lint by default
-let g:prettier#autoformat=0
+let g:prettier#autoformat=1
 
 "*****************************************************************************
 "" Visual Settings
