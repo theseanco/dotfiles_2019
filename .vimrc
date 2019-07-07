@@ -77,6 +77,9 @@ Plug 'honza/vim-snippets'
 "" Color
 Plug 'tomasr/molokai'
 
+"" bufkill to handle strange NERDTree edgecase with :bd command
+Plug 'qpkorr/vim-bufkill'
+
 "*****************************************************************************
 "" Custom bundles
 "*****************************************************************************
@@ -96,6 +99,7 @@ Plug 'mxw/vim-jsx'
 
 "" Styled-components
 Plug 'styled-components/vim-styled-components'
+
 
 " Vim surround
 Plug 'tpope/vim-surround'
